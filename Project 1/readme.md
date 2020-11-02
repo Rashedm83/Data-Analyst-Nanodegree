@@ -1,5 +1,5 @@
 # Project 1
->##Explore Weather Trends
+>## Explore Weather Trends
 >
 > In this project, I analyzed local and global temperature data and compared the temperature trends for 2 city in my cuntry to overall global temperature trends.
 >
