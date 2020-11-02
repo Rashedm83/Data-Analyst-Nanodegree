@@ -1,0 +1,15 @@
+used a query with joins to pull all the data with 1 query
+
+Select cd.year, cd.city, cd.avg_temp as local_temp, gd.avg_temp as global_temp
+from city_data cd
+Join city_list cl
+on cl.city = cd.city
+Join global_data gd
+on gd.year = cd.year
+where cd.city = 'Mecca' or cd.city = 'Riyadh'
+
+
+we can use to pull global data in spreat file if 
+
+Select *
+from global_data
